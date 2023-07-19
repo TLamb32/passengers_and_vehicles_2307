@@ -39,7 +39,7 @@ RSpec.describe Vehicle do
     expect(vehicle.passengers).to eq([charlie, jude, taylor])
   end
 
-  it can "determine how many adults are in the car" do
+  it "can determine how many adults are in the car" do
     vehicle = Vehicle.new("2001", "Honda", "Civic")
 
     charlie = Passenger.new({"name" => "Charlie", "age" => 18})    

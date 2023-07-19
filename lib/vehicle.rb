@@ -26,5 +26,6 @@ class Vehicle
 
   def num_adults
     
+    require 'pry'; binding.pry
   end
 end
